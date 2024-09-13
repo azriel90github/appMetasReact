@@ -7,4 +7,5 @@ export default defineConfig({
   dbCredentials: {  
     url: "postgresql://docker:docker@localhost:5432/inorbit"
   },
+  
 });
