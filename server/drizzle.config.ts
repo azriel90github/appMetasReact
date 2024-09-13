@@ -4,7 +4,7 @@ export default defineConfig({
 	schema: "./schema.ts",
   out: "./.migrations",
 	dialect: "postgresql",
-  dbCredentials: {
+  dbCredentials: {  
     url: "postgresql://docker:docker@localhost:5432/inorbit"
   },
 });
