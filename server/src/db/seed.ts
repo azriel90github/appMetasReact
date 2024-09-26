@@ -1,4 +1,4 @@
-import { db } from "."
+import { client, db } from "."
 import { goalCompletions, goals } from "./schema"
 
 async function seed() {
@@ -12,4 +12,6 @@ async function seed() {
   ])
 }
 
-seed()
+seed().finally( () => {
+  client.end()
+}) 
