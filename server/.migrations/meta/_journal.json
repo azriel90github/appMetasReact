@@ -8,6 +8,13 @@
       "when": 1726296749168,
       "tag": "0000_spotty_revanche",
       "breakpoints": true
+    },
+    {
+      "idx": 1,
+      "version": "7",
+      "when": 1727355577960,
+      "tag": "0001_chilly_norman_osborn",
+      "breakpoints": true
     }
   ]
 }
